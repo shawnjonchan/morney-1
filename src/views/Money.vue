@@ -2,48 +2,6 @@
   <div class="nav-wrapper">
     <div class="content">
       <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
-      <p>Money.vue</p>
     </div>
     <Nav />
   </div>
@@ -63,6 +21,7 @@ export default {
   height: 100vh;
 }
 .content {
+  border: 1px solid blue;
   overflow: auto;
   flex-grow: 1;
 }
