@@ -23,12 +23,10 @@
 <script lang="ts">
 import Vue from "vue";
 import { Component, Prop } from "vue-property-decorator";
-
 @Component
 export default class NumberPad extends Vue {
   @Prop() readonly value!: number;
   output = this.value.toString();
-
   inputContent(event: MouseEvent) {
     const button = event.target as HTMLButtonElement;
     const input = button.textContent!;
@@ -73,7 +71,7 @@ export default class NumberPad extends Vue {
     @extend %clearFix;
     @extend %innerShadow;
     font-size: 36px;
-    font-family: consolas, monospace;
+    font-family: Consolas, monospace;
     padding: 9px 16px;
     text-align: right;
     height: 72px;
