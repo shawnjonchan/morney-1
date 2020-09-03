@@ -36,6 +36,7 @@ export default class EditLabel extends Vue {
       this.$router.replace("/404");
     }
   }
+
   update(name: string) {
     if (this.tag) {
       tagListModel.update(this.tag.id, name);
@@ -44,10 +45,10 @@ export default class EditLabel extends Vue {
 
   remove() {
     if (this.tag) {
-      if(tagListModel.remove(this.tag.id)){
+      if (tagListModel.remove(this.tag.id)) {
         this.$router.back();
-      }else{
-   window.alert('删除失败');
+      } else {
+        window.alert("删除失败");
       }
     }
   }
