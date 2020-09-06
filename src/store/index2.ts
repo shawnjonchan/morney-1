@@ -6,11 +6,9 @@ const store = {
   addCount() {
     this.count += 1;
   },
-  
+
   ...recordStore,
   ...tagStore,
 };
-
-console.log(store);
 
 export default store;
