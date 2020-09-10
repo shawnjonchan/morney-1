@@ -1,9 +1,17 @@
+type RootState = {
+  recordList: RecordItem[];
+  tagList: Tag[];
+  currentTag?: Tag;
+};
+
+type HashTableValue = { title: string; items: RecordList[] };
+
 type RecordItem = {
   tags: string[];
   notes: string;
   type: string;
   amount: number; // 数据类型 object等
-  createdAt?: Date; // 类 /构造函数
+  createdAt?: string; // 类 /构造函数
 };
 
 type Tag = {
@@ -18,4 +26,4 @@ type TagListModel = {
   remove: (id: string) => boolean;
   save: () => void;
 };
-// interface Window {}
+interface Window {}
