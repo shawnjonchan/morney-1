@@ -1,6 +1,7 @@
 const path = require("path");
 
 module.exports = {
+  publicPath: process.env.NODE_ENV === "production" ? "/banana - money/" : "/",
   devServer: {
     public: "112.48.62.196:8080",
     disableHostCheck: true,
