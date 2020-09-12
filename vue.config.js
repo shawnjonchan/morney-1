@@ -1,6 +1,10 @@
 const path = require("path");
 
 module.exports = {
+  devServer: {
+    public: "112.48.62.196:8080",
+    disableHostCheck: true,
+  },
   lintOnSave: false,
   chainWebpack: (config) => {
     const dir = path.resolve(__dirname, "src/assets/icons");

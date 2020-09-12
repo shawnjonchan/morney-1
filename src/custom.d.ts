@@ -1,10 +1,9 @@
 type RootState = {
   recordList: RecordItem[];
+  createRecordError: Error | null;
   tagList: Tag[];
   currentTag?: Tag;
 };
-
-type HashTableValue = { title: string; items: RecordList[] };
 
 type RecordItem = {
   tags: Tag[];
